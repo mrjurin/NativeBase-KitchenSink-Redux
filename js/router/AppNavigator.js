@@ -1,4 +1,4 @@
-import Routes from './routes';
+import Routes from './Routes';
 import { StackNavigator } from "react-navigation";
 
 export default StackNavigator( Routes, {

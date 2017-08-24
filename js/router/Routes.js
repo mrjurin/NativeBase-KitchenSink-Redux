@@ -1,4 +1,4 @@
-import Drawer from "../Drawer";
+import Drawer from "./Drawer";
 import Header from "../components/Header/";
 import Header1 from "../components/Header/1";
 import Header2 from "../components/Header/2";

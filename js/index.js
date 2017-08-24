@@ -1,9 +1,7 @@
-/* @flow */
-
 import React from "react";
 
 import { Root } from "native-base";
-import { StackNavigator, addNavigationHelpers } from "react-navigation";
+import { addNavigationHelpers } from "react-navigation";
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -14,7 +12,7 @@ import material from '../native-base-theme/variables/material';
 
 import { connect } from 'react-redux';
 
-import AppNavigator from './routes/AppNavigator';
+import AppNavigator from './router/AppNavigator';
 
 class App extends React.Component {
 	render() {

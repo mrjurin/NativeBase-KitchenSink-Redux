@@ -10,11 +10,16 @@
 		"start": "react-native start",
 		"android": "react-native run-android",
 		"ios": "react-native run-ios",
+		"log": "react-native log-android",
+		"log-android": "react-native log-android",
+		"log-ios": "react-native log-ios",
 		"test": "node node_modules/jest/bin/jest.js --watch"
 	},
 	"jest": {
 		"preset": "react-native",
-		"transformIgnorePatterns": ["node_modules/(?!react-native|native-base-shoutem-theme)"]
+		"transformIgnorePatterns": [
+			"node_modules/(?!react-native|native-base-shoutem-theme)"
+		]
 	},
 	"dependencies": {
 		"color": "~1.0.3",
@@ -22,6 +27,9 @@
 		"native-base": "2.3.1",
 		"react": "16.0.0-alpha.13",
 		"react-native": "0.46.4",
-		"react-navigation": "1.0.0-beta.11"
+		"react-navigation": "1.0.0-beta.11",
+		"react-redux": "^5.0.6",
+		"redux": "^3.7.2",
+		"redux-thunk": "^2.2.0"
 	}
 }
